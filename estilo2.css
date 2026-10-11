@@ -1,0 +1,116 @@
+body{
+    background-color: rgb(31, 30, 30);
+    color: aliceblue;
+}
+/* TITULO DA LOJA   */
+header{
+    background-color: rgb(56, 56, 56);
+    padding: 10px;
+}
+.titulo{
+    margin: 0 10px;
+    font-family: 'Orbitron', sans-serif;
+    font-size: 15px;
+    text-align: left;
+    color: rgb(240, 240, 14);
+}
+
+.contato2{
+    text-align: right;
+    background-color: yellow;
+    padding: 10px;
+    border-radius: 10px;
+    border: 2px solid black;
+}
+/* MENU DE NAVEGAÇÃO */ 
+nav{
+    font-size: 25px;
+    text-align: center;
+    padding: 10px 0;
+    margin-bottom: 20px;
+}
+nav a{
+    font-family: fantasy;
+    color: rgb(223, 172, 5);
+    margin: 0 10px;
+    text-decoration: none;
+}
+a:hover{
+    color: aliceblue;
+}
+/* DESCEIÇAO DA LOJA */
+.paragrafo1{
+    color: rgb(126, 124, 124);
+    text-align: center;
+    font-size: 15px;
+}
+.paragrafo2{
+    color: rgb(126, 124, 124);
+    text-align: center;
+    font-size: 15px;
+}
+/* LOGO DA LOJA */
+.logo{
+    margin: 0 auto;
+    display: flexbox;
+    width: auto;
+    height: 100px;
+    
+}
+/* PRODUTOS */
+#produtos{
+    color: rgb(230, 230, 48);
+    text-align: center;
+}
+h2{
+    font-size: 30px;
+    color: #fff;
+    margin: 30px 0 8px;
+}
+p{
+    color: white;
+    font-size: 15px;
+    margin: 25px;
+}
+img{
+    border: 3px solid rgb(192, 119, 9);
+    border-radius: 15px;
+    margin: 25px;
+    
+}
+iframe{
+    margin: 25px;
+    border-radius: 25px;
+}
+/* TABELA DE PREÇOS */
+.precos{
+    text-align: center;
+    color: rgb(230, 230, 48);
+}
+table{
+    margin: 0 auto;
+    border: 2px solid rgb(252, 251, 251);
+    border-radius: 5px;
+    color: rgb(238, 235, 235);
+    background-color: #424242;
+    font-size: 30px;
+    text-align: center;
+}
+th{
+    color: rgb(151, 151, 151);
+}
+/* LINK DA PICHAU */
+.pichau{
+    font-size: 20px;
+    color: rgb(230, 230, 48);
+    text-decoration: none;
+}
+/* RODA Pe */
+footer{
+    text-align: center;
+    background-color: rgb(56, 56, 56);
+    color: #8d8b8b;
+}
+#contato{
+    color: rgb(230, 230, 48);
+}
